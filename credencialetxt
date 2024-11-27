@@ -1,0 +1,33 @@
+
+// se cambian en el archivo de 
+
+config --> development.json  -- / no me coje la varible de entorno 
+
+// credenciales para pruebas --> postgres
+{
+  "HOST": "dpg-csqd3pl6l47c73b29lrg-a.oregon-postgres.render.com",
+  "USER": "root",
+  "PASSWORD": "Qb29z8VKKLXZ3MFDrK456rZXHleeLgEt", 
+  "DATABASE": "aerolinea_605z",
+  "SSL": true
+}
+
+// credenciales de produccion -->postgres
+
+{
+    "HOST": "dpg-csn2932j1k6c73dqmovg-a.oregon-postgres.render.com",
+    "USER": "aerolinea_wdz4_user",
+    "PASSWORD": "pmFe3OyqM3VoHx5Wvt5RuYPG1sUu7gly", 
+    "DATABASE": "aerolinea_wdz4",
+    "SSL": true
+}
+
+// en  --> mysql
+{
+    "HOST": "localhost",
+    "USER": "root",
+    "PASSWORD": "Mendoza1026+", 
+    "DATABASE": "everyoneflies",
+    "SSL": true
+}
+

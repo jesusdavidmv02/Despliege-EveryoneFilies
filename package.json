@@ -1,0 +1,49 @@
+{
+  "name": "aerolinea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e ts,json --exec ts-node index.ts",
+    "set-env": "cross-env NODE_ENV=production",
+    "dev": "nodemon -e ts,json --exec ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "class-validator": "^0.14.1",
+    "config": "^3.3.12",
+    "dayjs": "^1.11.13",
+    "dialogflow": "^4.0.3",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.1",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "save": "^2.9.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "@types/dialogflow": "^1.0.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "@types/nodemailer": "^6.4.16",
+    "@types/pdfkit": "^0.13.6",
+    "@types/pg": "^8.11.10",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.7",
+    "@types/uuid": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.6.3"
+  }
+}

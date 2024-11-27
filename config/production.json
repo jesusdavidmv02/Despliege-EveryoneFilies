@@ -1,0 +1,10 @@
+{
+  "HOST": "junction.proxy.rlwy.net",
+  "PORT": 51520  ,
+  "USER": "root",
+  "DB_TYPE":"mysql",
+  "PASSWORD": "qhRywzTZfelJHbzHgorSDzIZZOFSwFbS", 
+  "DATABASE": "railway",
+  "SSL": true
+
+}
