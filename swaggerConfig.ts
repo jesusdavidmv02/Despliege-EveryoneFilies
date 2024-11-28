@@ -13,7 +13,7 @@ const swaggerOptions = {
     servers: [
       {
         // url: "http://localhost:3000/api/v1/",
-         url: "https://despliege-everyonefilies-production.up.railway.app/api-docs/api/v1/" // URL base de la API
+         url: "https://despliege-everyonefilies-production.up.railway.app/api/v1/" // URL base de la API
       },
     ],
   }, 
