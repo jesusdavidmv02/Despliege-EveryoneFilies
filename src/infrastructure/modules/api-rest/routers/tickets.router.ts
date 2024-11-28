@@ -17,7 +17,7 @@ export const RutasTicket = () => {
   // swagger:
   /** 
    * @swagger
-   * /tickets:
+   * /ticket:
    *   get: 
    *     description: Obtiene todos los tickets
    *     produces:
@@ -194,7 +194,7 @@ export const RutasTicket = () => {
   // swagger:
   /** 
    * @swagger
-   * /tickets/{id}:
+   * /ticket/{id}:
    *   get:
    *     description: Obtiene un ticket por su ID
    *     tags:

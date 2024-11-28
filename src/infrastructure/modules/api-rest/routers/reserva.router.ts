@@ -139,14 +139,6 @@ export const RutasReserva = () => {
    *                 type: string
    *                 description: Categoría de la reserva (e.g., económica, ejecutiva).
    *                 example: "ejecutiva"
-   *               precio_subtotal:
-   *                 type: number
-   *                 description: Subtotal del precio de la reserva.
-   *                 example: 300.00
-   *               precio_total:
-   *                 type: number
-   *                 description: Precio total de la reserva.
-   *                 example: 350.00
    *     produces:
    *       - application/json
    *     responses:
